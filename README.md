@@ -1,6 +1,6 @@
-# Base para proyectos en TypeScript  con MongoDB:writing_hand:
+# Challenge tweet mongodb:writing_hand:
 
-Este template esta dirigido a todos aquellos que inician en `TyepScript` con `MongoDB` como base de datos. Para usarlo, simplemente tienes hacer un `fork` o usar el botón `use this template`.
+Desafio: superar los test creando una base de datos en `mongodb` usando `mongoose` como orm.
 
 ## Entorno
 
