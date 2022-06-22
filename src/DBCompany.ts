@@ -1,4 +1,4 @@
-import { Employee, EmployeeCollection } from "../database/database";
+import { Employee, EmployeeCollection } from "../utils/database";
 
 class DBCompany {
   async getEmployees(): Promise<Employee[]> {
