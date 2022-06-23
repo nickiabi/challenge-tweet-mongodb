@@ -16,7 +16,7 @@ export const createDB = async () => {
 export const destroyDB = async () => {
   try {
     await TweetCollection.deleteMany();
-    connection.db.dropDatabase();
+    await connection.db.dropDatabase();
   } catch (error) {
     console.log("Error al eliminar la base de datos");
   } finally {
