@@ -1,4 +1,4 @@
-# Challenge tweet mongodb:writing_hand:
+# Challenge Twitter mongodb:writing_hand:
 
 Desafio: superar los test creando una base de datos en `mongodb` usando `mongoose` como orm.
 

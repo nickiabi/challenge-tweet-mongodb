@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import { Tweet } from "../database/dataset";
+import { Tweet } from "../database/tweets";
 
 export const TweetSchema = new Schema<Tweet>({
   _id: { type: Number },
