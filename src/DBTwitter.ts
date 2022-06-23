@@ -7,7 +7,7 @@ class DBTwitter {
     return tweets;
   }
 
-  getNumberOfTweetsByLevel(level: number) {
+  async getNumberOfTweetsByLevel(level: number): Promise<number> {
     throw new Error("Method not implemented.");
   }
 

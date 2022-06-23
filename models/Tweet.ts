@@ -6,7 +6,7 @@ export const TweetSchema = new Schema<Tweet>({
   user_name: { type: String },
   gender: { type: String },
   tweet: { type: String },
-  aggressiveness_level: { type: Number },
+  spam_level: { type: Number },
 });
 
 export const TweetCollection = model("Tweet", TweetSchema);

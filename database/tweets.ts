@@ -3,7 +3,7 @@ export type Tweet = {
   user_name: string;
   gender: string;
   tweet: string;
-  aggressiveness_level: number;
+  spam_level: number;
 };
 
 export const tweets: Tweet[] = [
@@ -13,7 +13,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 2,
@@ -21,7 +21,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 3,
@@ -29,7 +29,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eleifend luctus ultricies eu nibh quisque _id justo sit amet sapien dignissim",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 4,
@@ -37,7 +37,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 5,
@@ -45,7 +45,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 6,
@@ -53,7 +53,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio porttitor _id consequat in consequat ut nulla sed accumsan felis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 7,
@@ -61,7 +61,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 8,
@@ -69,7 +69,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie lorem",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 9,
@@ -77,7 +77,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 10,
@@ -85,7 +85,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 11,
@@ -93,7 +93,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 12,
@@ -101,7 +101,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 13,
@@ -109,7 +109,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 14,
@@ -117,7 +117,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 15,
@@ -125,7 +125,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 16,
@@ -133,14 +133,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id mauris",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 17,
     user_name: "cstoyleg",
     gender: "Female",
     tweet: "dui luctus rutrum nulla tellus in sagittis dui vel nisl",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 18,
@@ -148,7 +148,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget tinc_idunt eget tempus vel pede morbi porttitor lorem _id ligula",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 19,
@@ -156,14 +156,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 20,
     user_name: "faggioj",
     gender: "Female",
     tweet: "mattis nibh ligula nec sem duis aliquam convallis nunc proin at",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 21,
@@ -171,7 +171,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 22,
@@ -179,7 +179,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 23,
@@ -187,7 +187,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 24,
@@ -195,7 +195,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 25,
@@ -203,7 +203,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 26,
@@ -211,7 +211,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 27,
@@ -219,7 +219,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 28,
@@ -227,7 +227,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 29,
@@ -235,7 +235,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "parturient montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 30,
@@ -243,7 +243,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "orci pede venenatis non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 31,
@@ -251,7 +251,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 32,
@@ -259,7 +259,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 33,
@@ -267,7 +267,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 34,
@@ -275,7 +275,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 35,
@@ -283,7 +283,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 36,
@@ -291,7 +291,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 37,
@@ -299,7 +299,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 38,
@@ -307,7 +307,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 39,
@@ -315,7 +315,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 40,
@@ -323,7 +323,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vulputate nonummy maecenas tinc_idunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 41,
@@ -331,7 +331,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 42,
@@ -339,7 +339,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "massa volutpat convallis morbi odio odio elementum eu interdum eu tinc_idunt in leo maecenas",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 43,
@@ -347,7 +347,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id consequat in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 44,
@@ -355,7 +355,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 45,
@@ -363,7 +363,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 46,
@@ -371,7 +371,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 47,
@@ -379,7 +379,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sed vestibulum sit amet cursus _id turpis integer aliquet massa _id",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 48,
@@ -387,7 +387,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 49,
@@ -395,7 +395,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 50,
@@ -403,7 +403,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie lorem quisque ut",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 51,
@@ -411,14 +411,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 52,
     user_name: "nmcpartling1f",
     gender: "Female",
     tweet: "ante ipsum primis in faucibus orci luctus et ultrices posuere",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 53,
@@ -426,14 +426,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 54,
     user_name: "modoohaine1h",
     gender: "Male",
     tweet: "donec posuere metus vitae ipsum aliquam non mauris morbi non",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 55,
@@ -441,14 +441,14 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 56,
     user_name: "rwolfers1j",
     gender: "Male",
     tweet: "quam sapien varius ut blandit non interdum in ante vestibulum ante",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 57,
@@ -456,7 +456,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 58,
@@ -464,7 +464,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 59,
@@ -472,7 +472,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 60,
@@ -480,7 +480,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec quis orci eget orci vehicula condimentum curabitur in libero ut",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 61,
@@ -488,7 +488,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 62,
@@ -496,7 +496,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "enim leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 63,
@@ -504,7 +504,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 64,
@@ -512,7 +512,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vitae consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 65,
@@ -520,7 +520,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 66,
@@ -528,7 +528,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 67,
@@ -536,7 +536,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 68,
@@ -544,7 +544,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 69,
@@ -552,7 +552,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 70,
@@ -560,14 +560,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 71,
     user_name: "jstledger1y",
     gender: "Male",
     tweet: "dui proin leo odio porttitor _id consequat in consequat ut nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 72,
@@ -575,7 +575,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 73,
@@ -583,7 +583,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 74,
@@ -591,7 +591,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 75,
@@ -599,7 +599,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 76,
@@ -607,7 +607,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 77,
@@ -615,7 +615,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 78,
@@ -623,7 +623,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 79,
@@ -631,14 +631,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 80,
     user_name: "utullot27",
     gender: "Male",
     tweet: "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 81,
@@ -646,7 +646,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 82,
@@ -654,21 +654,21 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 83,
     user_name: "qwaterfall2a",
     gender: "Female",
     tweet: "eleifend quam a odio in hac habitasse platea dictumst maecenas",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 84,
     user_name: "cpollack2b",
     gender: "Male",
     tweet: "potenti cras in purus eu magna vulputate luctus cum sociis natoque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 85,
@@ -676,7 +676,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 86,
@@ -684,7 +684,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 87,
@@ -692,7 +692,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 88,
@@ -700,7 +700,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 89,
@@ -708,7 +708,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 90,
@@ -716,7 +716,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 91,
@@ -724,7 +724,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 92,
@@ -732,7 +732,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 93,
@@ -740,7 +740,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque _id justo sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 94,
@@ -748,14 +748,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 95,
     user_name: "ubonevant2m",
     gender: "Female",
     tweet: "lobortis ligula sit amet eleifend pede libero quis orci nullam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 96,
@@ -763,7 +763,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 97,
@@ -771,7 +771,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 98,
@@ -779,7 +779,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 99,
@@ -787,7 +787,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus _id turpis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 100,
@@ -795,7 +795,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 101,
@@ -803,7 +803,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 102,
@@ -811,7 +811,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 103,
@@ -819,7 +819,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "maecenas rhoncus aliquam lacus morbi quis tortor _id nulla ultrices aliquet maecenas leo odio condimentum _id luctus nec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 104,
@@ -827,7 +827,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 105,
@@ -835,7 +835,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 106,
@@ -843,7 +843,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 107,
@@ -851,7 +851,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 108,
@@ -859,7 +859,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 109,
@@ -867,7 +867,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus etiam vel",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 110,
@@ -875,7 +875,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 111,
@@ -883,7 +883,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 112,
@@ -891,7 +891,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 113,
@@ -899,7 +899,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 114,
@@ -907,7 +907,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id consequat in",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 115,
@@ -915,7 +915,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 116,
@@ -923,7 +923,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 117,
@@ -931,7 +931,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 118,
@@ -939,7 +939,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 119,
@@ -947,7 +947,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 120,
@@ -955,7 +955,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 121,
@@ -963,7 +963,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 122,
@@ -971,7 +971,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 123,
@@ -979,7 +979,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 124,
@@ -987,7 +987,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 125,
@@ -995,7 +995,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 126,
@@ -1003,7 +1003,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec quis orci eget orci vehicula condimentum curabitur in libero ut",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 127,
@@ -1011,7 +1011,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 128,
@@ -1019,7 +1019,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 129,
@@ -1027,7 +1027,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 130,
@@ -1035,7 +1035,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 131,
@@ -1043,7 +1043,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 132,
@@ -1051,7 +1051,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 133,
@@ -1059,7 +1059,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 134,
@@ -1067,7 +1067,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 135,
@@ -1075,7 +1075,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 136,
@@ -1083,7 +1083,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 137,
@@ -1091,7 +1091,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 138,
@@ -1099,7 +1099,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 139,
@@ -1107,7 +1107,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 140,
@@ -1115,7 +1115,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "semper sapien a libero nam dui proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 141,
@@ -1123,7 +1123,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 142,
@@ -1131,7 +1131,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 143,
@@ -1139,7 +1139,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 144,
@@ -1147,7 +1147,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 145,
@@ -1155,7 +1155,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 146,
@@ -1163,7 +1163,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 147,
@@ -1171,7 +1171,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 148,
@@ -1179,7 +1179,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 149,
@@ -1187,14 +1187,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 150,
     user_name: "kwhittlesee45",
     gender: "Female",
     tweet: "laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 151,
@@ -1202,7 +1202,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 152,
@@ -1210,7 +1210,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 153,
@@ -1218,21 +1218,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "enim leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 154,
     user_name: "dwilber49",
     gender: "Female",
     tweet: "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 155,
     user_name: "oagate4a",
     gender: "Male",
     tweet: "at nibh in hac habitasse platea dictumst aliquam augue quam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 156,
@@ -1240,7 +1240,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 157,
@@ -1248,7 +1248,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 158,
@@ -1256,7 +1256,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 159,
@@ -1264,7 +1264,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 160,
@@ -1272,7 +1272,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 161,
@@ -1280,7 +1280,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 162,
@@ -1288,7 +1288,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eleifend luctus ultricies eu nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 163,
@@ -1296,7 +1296,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "penatibus et magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 164,
@@ -1304,7 +1304,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 165,
@@ -1312,7 +1312,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent blandit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 166,
@@ -1320,7 +1320,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 167,
@@ -1328,7 +1328,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 168,
@@ -1336,7 +1336,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 169,
@@ -1344,7 +1344,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 170,
@@ -1352,7 +1352,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 171,
@@ -1360,21 +1360,21 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 172,
     user_name: "dbretland4r",
     gender: "Male",
     tweet: "dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 173,
     user_name: "gbauchop4s",
     gender: "Male",
     tweet: "ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 174,
@@ -1382,7 +1382,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 175,
@@ -1390,7 +1390,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 176,
@@ -1398,7 +1398,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 177,
@@ -1406,7 +1406,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tinc_idunt in",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 178,
@@ -1414,7 +1414,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ac est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 179,
@@ -1422,7 +1422,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 180,
@@ -1430,7 +1430,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 181,
@@ -1438,7 +1438,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 182,
@@ -1446,7 +1446,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 183,
@@ -1454,7 +1454,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "luctus tinc_idunt nulla mollis molestie lorem quisque ut erat curabitur grav_ida",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 184,
@@ -1462,7 +1462,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 185,
@@ -1470,7 +1470,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 186,
@@ -1478,7 +1478,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 187,
@@ -1486,7 +1486,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus metus arcu adipiscing",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 188,
@@ -1494,7 +1494,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 189,
@@ -1502,7 +1502,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 190,
@@ -1510,7 +1510,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 191,
@@ -1518,7 +1518,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 192,
@@ -1526,7 +1526,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 193,
@@ -1534,7 +1534,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 194,
@@ -1542,7 +1542,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 195,
@@ -1550,7 +1550,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla ultrices aliquet maecenas leo odio condimentum _id",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 196,
@@ -1558,7 +1558,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 197,
@@ -1566,7 +1566,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 198,
@@ -1574,7 +1574,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 199,
@@ -1582,7 +1582,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 200,
@@ -1590,7 +1590,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 201,
@@ -1598,7 +1598,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 202,
@@ -1606,7 +1606,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 203,
@@ -1614,7 +1614,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 204,
@@ -1622,7 +1622,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 205,
@@ -1630,7 +1630,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 206,
@@ -1638,7 +1638,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 207,
@@ -1646,7 +1646,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 208,
@@ -1654,7 +1654,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo nec condimentum neque",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 209,
@@ -1662,7 +1662,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 210,
@@ -1670,7 +1670,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 211,
@@ -1678,7 +1678,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 212,
@@ -1686,7 +1686,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 213,
@@ -1694,7 +1694,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 214,
@@ -1702,7 +1702,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 215,
@@ -1710,7 +1710,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quis augue luctus tinc_idunt nulla mollis molestie lorem quisque ut erat curabitur grav_ida nisi at",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 216,
@@ -1718,7 +1718,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 217,
@@ -1726,7 +1726,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 218,
@@ -1734,7 +1734,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 219,
@@ -1742,7 +1742,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 220,
@@ -1750,14 +1750,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 221,
     user_name: "nboog64",
     gender: "Male",
     tweet: "et tempus semper est quam pharetra magna ac consequat metus sapien",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 222,
@@ -1765,7 +1765,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 223,
@@ -1773,7 +1773,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "curabitur grav_ida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 224,
@@ -1781,7 +1781,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 225,
@@ -1789,14 +1789,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 226,
     user_name: "mhadland69",
     gender: "Male",
     tweet: "vel nisl duis ac nibh fusce lacus purus aliquet at",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 227,
@@ -1804,7 +1804,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 228,
@@ -1812,7 +1812,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 229,
@@ -1820,7 +1820,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 230,
@@ -1828,7 +1828,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 231,
@@ -1836,7 +1836,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 232,
@@ -1844,7 +1844,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ultricies eu nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 233,
@@ -1852,7 +1852,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 234,
@@ -1860,7 +1860,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "aliquet maecenas leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 235,
@@ -1868,7 +1868,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 236,
@@ -1876,7 +1876,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 237,
@@ -1884,21 +1884,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 238,
     user_name: "kdowsett6l",
     gender: "Female",
     tweet: "eu sapien cursus vestibulum proin eu mi nulla ac enim",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 239,
     user_name: "ydownie6m",
     gender: "Male",
     tweet: "ut tellus nulla ut erat _id mauris vulputate elementum nullam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 240,
@@ -1906,7 +1906,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 241,
@@ -1914,7 +1914,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 242,
@@ -1922,14 +1922,14 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "libero nam dui proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 243,
     user_name: "lprin6q",
     gender: "Male",
     tweet: "sapien sapien non mi integer ac neque duis bibendum morbi non",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 244,
@@ -1937,7 +1937,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 245,
@@ -1945,7 +1945,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 246,
@@ -1953,7 +1953,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 247,
@@ -1961,7 +1961,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 248,
@@ -1969,14 +1969,14 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 249,
     user_name: "lburgiss6w",
     gender: "Male",
     tweet: "ac nulla sed vel enim sit amet nunc viverra dapibus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 250,
@@ -1984,7 +1984,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 251,
@@ -1992,7 +1992,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 252,
@@ -2000,7 +2000,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 253,
@@ -2008,7 +2008,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 254,
@@ -2016,7 +2016,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 255,
@@ -2024,7 +2024,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris vulputate elementum nullam varius nulla facilisi cras non velit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 256,
@@ -2032,7 +2032,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 257,
@@ -2040,7 +2040,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor quis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 258,
@@ -2048,14 +2048,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 259,
     user_name: "cguthrie76",
     gender: "Male",
     tweet: "at velit eu est congue elementum in hac habitasse platea dictumst",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 260,
@@ -2063,7 +2063,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 261,
@@ -2071,7 +2071,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 262,
@@ -2079,7 +2079,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 263,
@@ -2087,7 +2087,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ac est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 264,
@@ -2095,7 +2095,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "lectus pellentesque at nulla suspendisse potenti cras in purus eu magna",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 265,
@@ -2103,7 +2103,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 266,
@@ -2111,7 +2111,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla ultrices",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 267,
@@ -2119,7 +2119,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 268,
@@ -2127,7 +2127,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 269,
@@ -2135,7 +2135,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 270,
@@ -2143,7 +2143,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 271,
@@ -2151,7 +2151,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 272,
@@ -2159,7 +2159,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 273,
@@ -2167,7 +2167,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 274,
@@ -2175,7 +2175,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "maecenas leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac diam cras",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 275,
@@ -2183,7 +2183,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 276,
@@ -2191,7 +2191,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla ultrices aliquet maecenas leo odio condimentum _id luctus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 277,
@@ -2199,7 +2199,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 278,
@@ -2207,7 +2207,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 279,
@@ -2215,7 +2215,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 280,
@@ -2223,7 +2223,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 281,
@@ -2231,14 +2231,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacinia erat vestibulum sed magna at nunc commodo placerat praesent",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 282,
     user_name: "hstredwick7t",
     gender: "Male",
     tweet: "vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 283,
@@ -2246,7 +2246,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec semper sapien a libero nam dui proin leo odio porttitor _id consequat in consequat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 284,
@@ -2254,14 +2254,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 285,
     user_name: "bcastellani7w",
     gender: "Male",
     tweet: "eleifend luctus ultricies eu nibh quisque _id justo sit amet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 286,
@@ -2269,7 +2269,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "urna ut tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 287,
@@ -2277,7 +2277,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 288,
@@ -2285,7 +2285,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 289,
@@ -2293,7 +2293,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie lorem quisque ut erat curabitur grav_ida",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 290,
@@ -2301,7 +2301,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 291,
@@ -2309,7 +2309,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 292,
@@ -2317,7 +2317,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 293,
@@ -2325,7 +2325,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor risus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 294,
@@ -2333,14 +2333,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 295,
     user_name: "bmarley86",
     gender: "Male",
     tweet: "orci luctus et ultrices posuere cubilia curae mauris viverra diam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 296,
@@ -2348,7 +2348,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 297,
@@ -2356,7 +2356,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 298,
@@ -2364,7 +2364,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor sed",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 299,
@@ -2372,7 +2372,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 300,
@@ -2380,7 +2380,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 301,
@@ -2388,7 +2388,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 302,
@@ -2396,7 +2396,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 303,
@@ -2404,14 +2404,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "praesent lectus vestibulum quam sapien varius ut blandit non interdum in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 304,
     user_name: "mgammill8f",
     gender: "Male",
     tweet: "eu est congue elementum in hac habitasse platea dictumst morbi",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 305,
@@ -2419,7 +2419,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 306,
@@ -2427,7 +2427,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 307,
@@ -2435,7 +2435,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 308,
@@ -2443,7 +2443,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 309,
@@ -2451,7 +2451,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 310,
@@ -2459,7 +2459,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 311,
@@ -2467,7 +2467,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 312,
@@ -2475,7 +2475,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 313,
@@ -2483,7 +2483,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 314,
@@ -2491,7 +2491,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 315,
@@ -2499,7 +2499,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 316,
@@ -2507,7 +2507,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et magnis dis parturient montes nascetur r_idiculus mus etiam vel augue",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 317,
@@ -2515,7 +2515,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie lorem quisque ut erat",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 318,
@@ -2523,7 +2523,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "diam cras pellentesque volutpat dui maecenas tristique est et tempus semper",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 319,
@@ -2531,7 +2531,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 320,
@@ -2539,14 +2539,14 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 321,
     user_name: "wbussetti8w",
     gender: "Female",
     tweet: "morbi quis tortor _id nulla ultrices aliquet maecenas leo odio",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 322,
@@ -2554,7 +2554,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "massa volutpat convallis morbi odio odio elementum eu interdum eu tinc_idunt in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 323,
@@ -2562,7 +2562,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 324,
@@ -2570,7 +2570,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 325,
@@ -2578,21 +2578,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 326,
     user_name: "zferrotti91",
     gender: "Female",
     tweet: "vehicula consequat morbi a ipsum integer a nibh in quis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 327,
     user_name: "nclemenza92",
     gender: "Female",
     tweet: "justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 328,
@@ -2600,7 +2600,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 329,
@@ -2608,7 +2608,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 330,
@@ -2616,7 +2616,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 331,
@@ -2624,7 +2624,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 332,
@@ -2632,7 +2632,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 333,
@@ -2640,7 +2640,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 334,
@@ -2648,7 +2648,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 335,
@@ -2656,7 +2656,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 336,
@@ -2664,7 +2664,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 337,
@@ -2672,7 +2672,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien a libero nam dui proin leo odio porttitor _id consequat in consequat ut",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 338,
@@ -2680,7 +2680,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 339,
@@ -2688,7 +2688,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 340,
@@ -2696,7 +2696,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 341,
@@ -2704,7 +2704,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 342,
@@ -2712,7 +2712,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 343,
@@ -2720,14 +2720,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 344,
     user_name: "sdicker9j",
     gender: "Female",
     tweet: "proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 345,
@@ -2735,7 +2735,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 346,
@@ -2743,7 +2743,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 347,
@@ -2751,7 +2751,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 348,
@@ -2759,7 +2759,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 349,
@@ -2767,14 +2767,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 350,
     user_name: "lcapaldo9p",
     gender: "Female",
     tweet: "sapien cursus vestibulum proin eu mi nulla ac enim in tempor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 351,
@@ -2782,7 +2782,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 352,
@@ -2790,7 +2790,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 353,
@@ -2798,7 +2798,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 354,
@@ -2806,7 +2806,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 355,
@@ -2814,7 +2814,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 356,
@@ -2822,7 +2822,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 357,
@@ -2830,7 +2830,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 358,
@@ -2838,7 +2838,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 359,
@@ -2846,14 +2846,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 360,
     user_name: "fmilroy9z",
     gender: "Male",
     tweet: "ut mauris eget massa tempor convallis nulla neque libero convallis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 361,
@@ -2861,7 +2861,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget massa tempor convallis nulla neque libero convallis eget eleifend luctus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 362,
@@ -2869,14 +2869,14 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 363,
     user_name: "lkuzemkaa2",
     gender: "Female",
     tweet: "dui luctus rutrum nulla tellus in sagittis dui vel nisl",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 364,
@@ -2884,7 +2884,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 365,
@@ -2892,7 +2892,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 366,
@@ -2900,7 +2900,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 367,
@@ -2908,7 +2908,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 368,
@@ -2916,7 +2916,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "penatibus et magnis dis parturient montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 369,
@@ -2924,7 +2924,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "_id turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 370,
@@ -2932,7 +2932,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 371,
@@ -2940,7 +2940,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 372,
@@ -2948,7 +2948,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 373,
@@ -2956,7 +2956,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 374,
@@ -2964,14 +2964,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 375,
     user_name: "mdaddowae",
     gender: "Female",
     tweet: "primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 376,
@@ -2979,7 +2979,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 377,
@@ -2987,14 +2987,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 378,
     user_name: "ccroalah",
     gender: "Male",
     tweet: "a suscipit nulla elit ac nulla sed vel enim sit",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 379,
@@ -3002,14 +3002,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 380,
     user_name: "lromanaj",
     gender: "Male",
     tweet: "urna ut tellus nulla ut erat _id mauris vulputate elementum nullam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 381,
@@ -3017,7 +3017,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 382,
@@ -3025,7 +3025,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mi in porttitor pede justo eu massa donec dapibus duis at velit eu est",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 383,
@@ -3033,7 +3033,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 384,
@@ -3041,7 +3041,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 385,
@@ -3049,7 +3049,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "interdum mauris non ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 386,
@@ -3057,7 +3057,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 387,
@@ -3065,7 +3065,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "integer aliquet massa _id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 388,
@@ -3073,7 +3073,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla neque libero convallis eget eleifend luctus ultricies eu nibh",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 389,
@@ -3081,14 +3081,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 390,
     user_name: "sharsnipeat",
     gender: "Male",
     tweet: "sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 391,
@@ -3096,7 +3096,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 392,
@@ -3104,7 +3104,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 393,
@@ -3112,14 +3112,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 394,
     user_name: "sleathesax",
     gender: "Female",
     tweet: "libero ut massa volutpat convallis morbi odio odio elementum eu",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 395,
@@ -3127,7 +3127,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 396,
@@ -3135,7 +3135,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 397,
@@ -3143,7 +3143,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 398,
@@ -3151,21 +3151,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 399,
     user_name: "wbeaudryb2",
     gender: "Female",
     tweet: "phasellus sit amet erat nulla tempus vivamus in felis eu",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 400,
     user_name: "rchampneysb3",
     gender: "Female",
     tweet: "in imperdiet et commodo vulputate justo in blandit ultrices enim",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 401,
@@ -3173,7 +3173,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 402,
@@ -3181,7 +3181,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 403,
@@ -3189,7 +3189,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 404,
@@ -3197,7 +3197,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 405,
@@ -3205,7 +3205,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 406,
@@ -3213,21 +3213,21 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "massa volutpat convallis morbi odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 407,
     user_name: "habbyba",
     gender: "Female",
     tweet: "nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 408,
     user_name: "tcrasfordbb",
     gender: "Male",
     tweet: "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 409,
@@ -3235,7 +3235,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 410,
@@ -3243,7 +3243,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 411,
@@ -3251,7 +3251,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 412,
@@ -3259,7 +3259,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 413,
@@ -3267,14 +3267,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "diam _id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 414,
     user_name: "mwillbh",
     gender: "Female",
     tweet: "aenean lectus pellentesque eget nunc donec quis orci eget orci",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 415,
@@ -3282,14 +3282,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nullam orci pede venenatis non sodales sed tinc_idunt eu felis fusce",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 416,
     user_name: "raymerbj",
     gender: "Female",
     tweet: "sapien ut nunc vestibulum ante ipsum primis in faucibus orci",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 417,
@@ -3297,7 +3297,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 418,
@@ -3305,7 +3305,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 419,
@@ -3313,7 +3313,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 420,
@@ -3321,7 +3321,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 421,
@@ -3329,7 +3329,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 422,
@@ -3337,14 +3337,14 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 423,
     user_name: "jmattiussibq",
     gender: "Agender",
     tweet: "ac neque duis bibendum morbi non quam nec dui luctus rutrum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 424,
@@ -3352,7 +3352,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 425,
@@ -3360,7 +3360,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 426,
@@ -3368,7 +3368,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 427,
@@ -3376,7 +3376,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 428,
@@ -3384,7 +3384,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 429,
@@ -3392,7 +3392,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 430,
@@ -3400,7 +3400,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 431,
@@ -3408,7 +3408,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "parturient montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 432,
@@ -3416,14 +3416,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 433,
     user_name: "lellesc0",
     gender: "Agender",
     tweet: "sit amet lobortis sapien sapien non mi integer ac neque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 434,
@@ -3431,7 +3431,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 435,
@@ -3439,7 +3439,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 436,
@@ -3447,7 +3447,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 437,
@@ -3455,7 +3455,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 438,
@@ -3463,14 +3463,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 439,
     user_name: "vbeedenc6",
     gender: "Bigender",
     tweet: "tellus in sagittis dui vel nisl duis ac nibh fusce lacus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 440,
@@ -3478,7 +3478,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 441,
@@ -3486,7 +3486,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 442,
@@ -3494,7 +3494,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 443,
@@ -3502,7 +3502,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "convallis eget eleifend luctus ultricies eu nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 444,
@@ -3510,7 +3510,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 445,
@@ -3518,7 +3518,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 446,
@@ -3526,7 +3526,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 447,
@@ -3534,7 +3534,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 448,
@@ -3542,7 +3542,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 449,
@@ -3550,7 +3550,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie lorem",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 450,
@@ -3558,7 +3558,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 451,
@@ -3566,7 +3566,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 452,
@@ -3574,7 +3574,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 453,
@@ -3582,7 +3582,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus metus arcu",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 454,
@@ -3590,7 +3590,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 455,
@@ -3598,7 +3598,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 456,
@@ -3606,7 +3606,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 457,
@@ -3614,7 +3614,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 458,
@@ -3622,7 +3622,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 459,
@@ -3630,7 +3630,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in hac habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo nec",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 460,
@@ -3638,7 +3638,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 461,
@@ -3646,7 +3646,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 462,
@@ -3654,7 +3654,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "molestie lorem quisque ut erat curabitur grav_ida nisi at nibh in hac",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 463,
@@ -3662,7 +3662,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 464,
@@ -3670,7 +3670,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 465,
@@ -3678,7 +3678,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 466,
@@ -3686,7 +3686,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 467,
@@ -3694,7 +3694,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 468,
@@ -3702,7 +3702,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 469,
@@ -3710,7 +3710,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 470,
@@ -3718,7 +3718,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 471,
@@ -3726,7 +3726,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 472,
@@ -3734,7 +3734,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 473,
@@ -3742,7 +3742,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 474,
@@ -3750,7 +3750,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus metus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 475,
@@ -3758,7 +3758,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 476,
@@ -3766,7 +3766,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 477,
@@ -3774,7 +3774,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 478,
@@ -3782,7 +3782,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 479,
@@ -3790,14 +3790,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 480,
     user_name: "ytremainedb",
     gender: "Male",
     tweet: "dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 481,
@@ -3805,7 +3805,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 482,
@@ -3813,7 +3813,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 483,
@@ -3821,7 +3821,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mollis molestie lorem quisque ut erat curabitur grav_ida nisi at nibh in hac habitasse platea dictumst aliquam augue",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 484,
@@ -3829,7 +3829,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 485,
@@ -3837,7 +3837,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 486,
@@ -3845,7 +3845,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 487,
@@ -3853,21 +3853,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 488,
     user_name: "tchristerdj",
     gender: "Male",
     tweet: "vestibulum sed magna at nunc commodo placerat praesent blandit nam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 489,
     user_name: "rgoslingdk",
     gender: "Bigender",
     tweet: "cras in purus eu magna vulputate luctus cum sociis natoque",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 490,
@@ -3875,7 +3875,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus etiam vel",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 491,
@@ -3883,7 +3883,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 492,
@@ -3891,7 +3891,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 493,
@@ -3899,7 +3899,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus metus arcu",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 494,
@@ -3907,7 +3907,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 495,
@@ -3915,7 +3915,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 496,
@@ -3923,7 +3923,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 497,
@@ -3931,14 +3931,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla ultrices aliquet maecenas leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 498,
     user_name: "sgarranddt",
     gender: "Male",
     tweet: "justo morbi ut odio cras mi pede malesuada in imperdiet et",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 499,
@@ -3946,7 +3946,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 500,
@@ -3954,7 +3954,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 501,
@@ -3962,7 +3962,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 502,
@@ -3970,14 +3970,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate elementum nullam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 503,
     user_name: "tmoutrayreaddy",
     gender: "Polygender",
     tweet: "in est risus auctor sed tristique in tempus sit amet sem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 504,
@@ -3985,7 +3985,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 505,
@@ -3993,7 +3993,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 506,
@@ -4001,7 +4001,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 507,
@@ -4009,7 +4009,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 508,
@@ -4017,7 +4017,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pede venenatis non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 509,
@@ -4025,7 +4025,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rutrum neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 510,
@@ -4033,7 +4033,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 511,
@@ -4041,7 +4041,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 512,
@@ -4049,7 +4049,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 513,
@@ -4057,7 +4057,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem quisque ut erat curabitur grav_ida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 514,
@@ -4065,7 +4065,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 515,
@@ -4073,7 +4073,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 516,
@@ -4081,7 +4081,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 517,
@@ -4089,7 +4089,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "integer tinc_idunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 518,
@@ -4097,7 +4097,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ultrices phasellus _id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 519,
@@ -4105,7 +4105,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 520,
@@ -4113,7 +4113,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 521,
@@ -4121,7 +4121,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 522,
@@ -4129,7 +4129,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 523,
@@ -4137,7 +4137,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl ut volutpat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 524,
@@ -4145,21 +4145,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 525,
     user_name: "vsheaberek",
     gender: "Female",
     tweet: "grav_ida nisi at nibh in hac habitasse platea dictumst aliquam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 526,
     user_name: "atomanekel",
     gender: "Male",
     tweet: "lacus at velit vivamus vel nulla eget eros elementum pellentesque",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 527,
@@ -4167,7 +4167,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 528,
@@ -4175,7 +4175,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet diam in magna bibendum imperdiet nullam orci pede venenatis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 529,
@@ -4183,7 +4183,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 530,
@@ -4191,7 +4191,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 531,
@@ -4199,7 +4199,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo nec condimentum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 532,
@@ -4207,7 +4207,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 533,
@@ -4215,7 +4215,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 534,
@@ -4223,7 +4223,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at velit vivamus vel nulla eget",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 535,
@@ -4231,7 +4231,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 536,
@@ -4239,14 +4239,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 537,
     user_name: "ocousansew",
     gender: "Male",
     tweet: "etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 538,
@@ -4254,7 +4254,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 539,
@@ -4262,7 +4262,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 540,
@@ -4270,7 +4270,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "integer aliquet massa _id lobortis convallis tortor risus dapibus augue vel",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 541,
@@ -4278,14 +4278,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem _id",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 542,
     user_name: "abrugsmaf1",
     gender: "Female",
     tweet: "in eleifend quam a odio in hac habitasse platea dictumst maecenas",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 543,
@@ -4293,7 +4293,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 544,
@@ -4301,14 +4301,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 545,
     user_name: "nstclairf4",
     gender: "Female",
     tweet: "primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 546,
@@ -4316,14 +4316,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 547,
     user_name: "wmusselwhitef6",
     gender: "Female",
     tweet: "libero rutrum ac lobortis vel dapibus at diam nam tristique",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 548,
@@ -4331,7 +4331,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 549,
@@ -4339,7 +4339,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at velit vivamus vel",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 550,
@@ -4347,7 +4347,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "praesent lectus vestibulum quam sapien varius ut blandit non interdum in",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 551,
@@ -4355,7 +4355,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 552,
@@ -4363,7 +4363,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 553,
@@ -4371,7 +4371,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 554,
@@ -4379,7 +4379,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dui proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 555,
@@ -4387,14 +4387,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 556,
     user_name: "rmearnsff",
     gender: "Male",
     tweet: "eu nibh quisque _id justo sit amet sapien dignissim vestibulum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 557,
@@ -4402,7 +4402,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 558,
@@ -4410,7 +4410,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at velit vivamus vel",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 559,
@@ -4418,7 +4418,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 560,
@@ -4426,7 +4426,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 561,
@@ -4434,7 +4434,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 562,
@@ -4442,7 +4442,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 563,
@@ -4450,7 +4450,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 564,
@@ -4458,7 +4458,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 565,
@@ -4466,7 +4466,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 566,
@@ -4474,7 +4474,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut tellus nulla ut erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 567,
@@ -4482,7 +4482,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor risus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 568,
@@ -4490,14 +4490,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 569,
     user_name: "cdyottfs",
     gender: "Female",
     tweet: "lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 570,
@@ -4505,14 +4505,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 571,
     user_name: "khillsfu",
     gender: "Male",
     tweet: "rutrum nulla nunc purus phasellus in felis donec semper sapien",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 572,
@@ -4520,7 +4520,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 573,
@@ -4528,7 +4528,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 574,
@@ -4536,7 +4536,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 575,
@@ -4544,7 +4544,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 576,
@@ -4552,7 +4552,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 577,
@@ -4560,7 +4560,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate elementum nullam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 578,
@@ -4568,14 +4568,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 579,
     user_name: "dknobleg2",
     gender: "Female",
     tweet: "ac est lacinia nisi venenatis tristique fusce congue diam _id",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 580,
@@ -4583,7 +4583,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 581,
@@ -4591,7 +4591,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 582,
@@ -4599,7 +4599,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 583,
@@ -4607,7 +4607,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 584,
@@ -4615,7 +4615,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "morbi odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 585,
@@ -4623,7 +4623,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 586,
@@ -4631,7 +4631,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dui proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 587,
@@ -4639,7 +4639,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 588,
@@ -4647,7 +4647,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 589,
@@ -4655,7 +4655,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 590,
@@ -4663,7 +4663,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl ut",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 591,
@@ -4671,7 +4671,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 592,
@@ -4679,7 +4679,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nonummy maecenas tinc_idunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 593,
@@ -4687,7 +4687,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 594,
@@ -4695,7 +4695,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 595,
@@ -4703,7 +4703,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 596,
@@ -4711,7 +4711,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 597,
@@ -4719,7 +4719,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut erat curabitur grav_ida nisi at nibh in hac habitasse platea dictumst aliquam augue",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 598,
@@ -4727,7 +4727,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 599,
@@ -4735,7 +4735,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 600,
@@ -4743,7 +4743,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 601,
@@ -4751,7 +4751,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 602,
@@ -4759,14 +4759,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 603,
     user_name: "yollegq",
     gender: "Female",
     tweet: "pretium quis lectus suspendisse potenti in eleifend quam a odio",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 604,
@@ -4774,7 +4774,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 605,
@@ -4782,7 +4782,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "faucibus orci luctus et ultrices posuere cubilia curae donec pharetra",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 606,
@@ -4790,7 +4790,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 607,
@@ -4798,7 +4798,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 608,
@@ -4806,7 +4806,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 609,
@@ -4814,7 +4814,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "_id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 610,
@@ -4822,7 +4822,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "volutpat dui maecenas tristique est et tempus semper est quam pharetra",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 611,
@@ -4830,7 +4830,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 612,
@@ -4838,7 +4838,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id consequat in consequat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 613,
@@ -4846,7 +4846,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac diam cras",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 614,
@@ -4854,7 +4854,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec semper sapien a libero nam dui proin leo odio porttitor _id consequat in consequat",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 615,
@@ -4862,7 +4862,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 616,
@@ -4870,7 +4870,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 617,
@@ -4878,7 +4878,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in porttitor pede justo eu massa donec dapibus duis at velit eu est",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 618,
@@ -4886,7 +4886,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 619,
@@ -4894,7 +4894,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 620,
@@ -4902,14 +4902,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "libero convallis eget eleifend luctus ultricies eu nibh quisque _id justo sit amet sapien dignissim vestibulum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 621,
     user_name: "mcowitzh8",
     gender: "Female",
     tweet: "donec diam neque vestibulum eget vulputate ut ultrices vel augue",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 622,
@@ -4917,7 +4917,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 623,
@@ -4925,7 +4925,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 624,
@@ -4933,7 +4933,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 625,
@@ -4941,7 +4941,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "maecenas tinc_idunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 626,
@@ -4949,14 +4949,14 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "in libero ut massa volutpat convallis morbi odio odio elementum eu interdum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 627,
     user_name: "hcortesehe",
     gender: "Female",
     tweet: "sollicitudin mi sit amet lobortis sapien sapien non mi integer ac",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 628,
@@ -4964,7 +4964,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 629,
@@ -4972,7 +4972,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 630,
@@ -4980,7 +4980,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 631,
@@ -4988,7 +4988,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 632,
@@ -4996,7 +4996,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 633,
@@ -5004,7 +5004,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 634,
@@ -5012,14 +5012,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 635,
     user_name: "jmintrimhm",
     gender: "Female",
     tweet: "erat nulla tempus vivamus in felis eu sapien cursus vestibulum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 636,
@@ -5027,7 +5027,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 637,
@@ -5035,7 +5035,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 638,
@@ -5043,7 +5043,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 639,
@@ -5051,7 +5051,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 640,
@@ -5059,7 +5059,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in sapien",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 641,
@@ -5067,7 +5067,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "at nunc commodo placerat praesent blandit nam nulla integer pede justo",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 642,
@@ -5075,7 +5075,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 643,
@@ -5083,7 +5083,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit _id pretium iaculis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 644,
@@ -5091,7 +5091,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 645,
@@ -5099,7 +5099,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 646,
@@ -5107,7 +5107,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in hac habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 647,
@@ -5115,7 +5115,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 648,
@@ -5123,7 +5123,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 649,
@@ -5131,7 +5131,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 650,
@@ -5139,7 +5139,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 651,
@@ -5147,14 +5147,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 652,
     user_name: "amottershawi3",
     gender: "Female",
     tweet: "in felis eu sapien cursus vestibulum proin eu mi nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 653,
@@ -5162,7 +5162,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 654,
@@ -5170,14 +5170,14 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 655,
     user_name: "lgiannii6",
     gender: "Female",
     tweet: "lobortis vel dapibus at diam nam tristique tortor eu pede",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 656,
@@ -5185,7 +5185,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 657,
@@ -5193,7 +5193,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 658,
@@ -5201,7 +5201,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "ac est lacinia nisi venenatis tristique fusce congue diam _id ornare imperdiet sapien urna pretium nisl",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 659,
@@ -5209,14 +5209,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "_id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 660,
     user_name: "blyddyib",
     gender: "Female",
     tweet: "amet erat nulla tempus vivamus in felis eu sapien cursus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 661,
@@ -5224,7 +5224,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 662,
@@ -5232,7 +5232,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 663,
@@ -5240,7 +5240,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 664,
@@ -5248,7 +5248,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 665,
@@ -5256,7 +5256,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 666,
@@ -5264,7 +5264,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 667,
@@ -5272,7 +5272,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at velit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 668,
@@ -5280,7 +5280,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 669,
@@ -5288,7 +5288,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 670,
@@ -5296,7 +5296,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 671,
@@ -5304,7 +5304,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 672,
@@ -5312,7 +5312,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 673,
@@ -5320,7 +5320,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 674,
@@ -5328,7 +5328,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "enim leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 675,
@@ -5336,7 +5336,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 676,
@@ -5344,7 +5344,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 677,
@@ -5352,7 +5352,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 678,
@@ -5360,7 +5360,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 679,
@@ -5368,7 +5368,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 680,
@@ -5376,7 +5376,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 681,
@@ -5384,7 +5384,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 682,
@@ -5392,7 +5392,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 683,
@@ -5400,7 +5400,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 684,
@@ -5408,7 +5408,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 685,
@@ -5416,7 +5416,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 686,
@@ -5424,14 +5424,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 687,
     user_name: "divanilovj2",
     gender: "Male",
     tweet: "nec sem duis aliquam convallis nunc proin at turpis a",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 688,
@@ -5439,7 +5439,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 689,
@@ -5447,7 +5447,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 690,
@@ -5455,7 +5455,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "purus phasellus in felis donec semper sapien a libero nam dui proin",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 691,
@@ -5463,7 +5463,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 692,
@@ -5471,7 +5471,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor _id",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 693,
@@ -5479,7 +5479,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 694,
@@ -5487,7 +5487,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "justo nec condimentum neque sapien placerat ante nulla justo aliquam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 695,
@@ -5495,7 +5495,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 696,
@@ -5503,7 +5503,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "libero convallis eget eleifend luctus ultricies eu nibh quisque _id justo sit amet sapien dignissim vestibulum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 697,
@@ -5511,7 +5511,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "libero nam dui proin leo odio porttitor _id consequat in consequat ut nulla sed accumsan felis ut at",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 698,
@@ -5519,7 +5519,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 699,
@@ -5527,7 +5527,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 700,
@@ -5535,7 +5535,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 701,
@@ -5543,14 +5543,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "semper sapien a libero nam dui proin leo odio porttitor _id consequat",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 702,
     user_name: "cfowleyjh",
     gender: "Male",
     tweet: "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 703,
@@ -5558,7 +5558,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 704,
@@ -5566,7 +5566,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 705,
@@ -5574,7 +5574,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 706,
@@ -5582,7 +5582,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 707,
@@ -5590,7 +5590,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 708,
@@ -5598,7 +5598,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "elementum in hac habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 709,
@@ -5606,7 +5606,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "velit _id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 710,
@@ -5614,7 +5614,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 711,
@@ -5622,7 +5622,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "_id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 712,
@@ -5630,7 +5630,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 713,
@@ -5638,7 +5638,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "aliquet massa _id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 714,
@@ -5646,7 +5646,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 715,
@@ -5654,7 +5654,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tinc_idunt eget tempus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 716,
@@ -5662,7 +5662,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 717,
@@ -5670,7 +5670,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 718,
@@ -5678,7 +5678,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 719,
@@ -5686,7 +5686,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dis parturient montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 720,
@@ -5694,7 +5694,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 721,
@@ -5702,7 +5702,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 722,
@@ -5710,7 +5710,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit _id pretium",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 723,
@@ -5718,7 +5718,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "_id turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 724,
@@ -5726,7 +5726,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 725,
@@ -5734,7 +5734,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 726,
@@ -5742,7 +5742,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat _id mauris vulputate",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 727,
@@ -5750,7 +5750,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in hac habitasse platea dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 728,
@@ -5758,7 +5758,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 729,
@@ -5766,7 +5766,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 730,
@@ -5774,7 +5774,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 731,
@@ -5782,14 +5782,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 732,
     user_name: "rhothersallkb",
     gender: "Female",
     tweet: "metus aenean fermentum donec ut mauris eget massa tempor convallis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 733,
@@ -5797,7 +5797,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 734,
@@ -5805,7 +5805,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ultrices aliquet maecenas leo odio condimentum _id luctus nec molestie sed",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 735,
@@ -5813,7 +5813,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 736,
@@ -5821,7 +5821,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 737,
@@ -5829,14 +5829,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 738,
     user_name: "scurteiskh",
     gender: "Male",
     tweet: "justo morbi ut odio cras mi pede malesuada in imperdiet",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 739,
@@ -5844,7 +5844,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 740,
@@ -5852,7 +5852,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 741,
@@ -5860,7 +5860,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 742,
@@ -5868,7 +5868,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 743,
@@ -5876,7 +5876,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 744,
@@ -5884,7 +5884,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam _id ornare",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 745,
@@ -5892,7 +5892,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quis tortor _id nulla ultrices aliquet maecenas leo odio condimentum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 746,
@@ -5900,14 +5900,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 747,
     user_name: "fcapronkq",
     gender: "Female",
     tweet: "phasellus in felis donec semper sapien a libero nam dui",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 748,
@@ -5915,7 +5915,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 749,
@@ -5923,7 +5923,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 750,
@@ -5931,7 +5931,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 751,
@@ -5939,7 +5939,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 752,
@@ -5947,14 +5947,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 753,
     user_name: "bsheardkw",
     gender: "Female",
     tweet: "justo maecenas rhoncus aliquam lacus morbi quis tortor _id nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 754,
@@ -5962,7 +5962,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 755,
@@ -5970,7 +5970,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 756,
@@ -5978,7 +5978,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 757,
@@ -5986,7 +5986,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 758,
@@ -5994,7 +5994,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 759,
@@ -6002,7 +6002,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra pede",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 760,
@@ -6010,7 +6010,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 761,
@@ -6018,7 +6018,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 762,
@@ -6026,7 +6026,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 763,
@@ -6034,7 +6034,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 764,
@@ -6042,7 +6042,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 765,
@@ -6050,7 +6050,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 766,
@@ -6058,7 +6058,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 767,
@@ -6066,7 +6066,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 768,
@@ -6074,7 +6074,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 769,
@@ -6082,7 +6082,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at velit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 770,
@@ -6090,7 +6090,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 771,
@@ -6098,7 +6098,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 772,
@@ -6106,7 +6106,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 773,
@@ -6114,7 +6114,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 774,
@@ -6122,7 +6122,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "congue risus semper porta volutpat quam pede lobortis ligula sit amet",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 775,
@@ -6130,7 +6130,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor _id consequat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 776,
@@ -6138,7 +6138,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 777,
@@ -6146,7 +6146,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 778,
@@ -6154,7 +6154,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 779,
@@ -6162,7 +6162,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 780,
@@ -6170,7 +6170,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 781,
@@ -6178,7 +6178,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 782,
@@ -6186,14 +6186,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 783,
     user_name: "aketchas_idelq",
     gender: "Male",
     tweet: "est et tempus semper est quam pharetra magna ac consequat metus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 784,
@@ -6201,7 +6201,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 785,
@@ -6209,7 +6209,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 786,
@@ -6217,7 +6217,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 787,
@@ -6225,7 +6225,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 788,
@@ -6233,7 +6233,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sociis natoque penatibus et magnis dis parturient montes nascetur r_idiculus mus etiam vel augue vestibulum rutrum rutrum",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 789,
@@ -6241,7 +6241,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 790,
@@ -6249,7 +6249,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 791,
@@ -6257,7 +6257,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 792,
@@ -6265,7 +6265,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 793,
@@ -6273,7 +6273,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "mauris enim leo rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 794,
@@ -6281,7 +6281,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lectus suspendisse potenti in eleifend quam a odio in hac habitasse",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 795,
@@ -6289,7 +6289,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 796,
@@ -6297,14 +6297,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 797,
     user_name: "rtitcombm4",
     gender: "Male",
     tweet: "pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 798,
@@ -6312,7 +6312,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 799,
@@ -6320,7 +6320,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 800,
@@ -6328,7 +6328,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 801,
@@ -6336,7 +6336,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus _id sapien in sapien iaculis congue vivamus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 802,
@@ -6344,7 +6344,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 803,
@@ -6352,7 +6352,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam _id",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 804,
@@ -6360,7 +6360,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 805,
@@ -6368,7 +6368,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 806,
@@ -6376,7 +6376,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rhoncus sed vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 807,
@@ -6384,7 +6384,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 808,
@@ -6392,14 +6392,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 809,
     user_name: "tjordinmg",
     gender: "Male",
     tweet: "sagittis dui vel nisl duis ac nibh fusce lacus purus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 810,
@@ -6407,7 +6407,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 811,
@@ -6415,7 +6415,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 812,
@@ -6423,7 +6423,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 813,
@@ -6431,7 +6431,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 814,
@@ -6439,7 +6439,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 815,
@@ -6447,21 +6447,21 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 816,
     user_name: "ajeannardmn",
     gender: "Female",
     tweet: "quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 817,
     user_name: "pcervantesmo",
     gender: "Non-binary",
     tweet: "fusce lacus purus aliquet at feugiat non pretium quis lectus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 818,
@@ -6469,7 +6469,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 819,
@@ -6477,7 +6477,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt lacus at",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 820,
@@ -6485,14 +6485,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "venenatis non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 821,
     user_name: "eambrozewiczms",
     gender: "Genderqueer",
     tweet: "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 822,
@@ -6500,7 +6500,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 823,
@@ -6508,7 +6508,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 824,
@@ -6516,7 +6516,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "condimentum _id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 825,
@@ -6524,7 +6524,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 826,
@@ -6532,7 +6532,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 827,
@@ -6540,7 +6540,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 828,
@@ -6548,7 +6548,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 829,
@@ -6556,7 +6556,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 830,
@@ -6564,7 +6564,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 831,
@@ -6572,7 +6572,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 832,
@@ -6580,7 +6580,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nam nulla integer pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 833,
@@ -6588,7 +6588,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 834,
@@ -6596,7 +6596,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ultrices aliquet maecenas leo odio condimentum _id luctus nec molestie sed justo",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 835,
@@ -6604,7 +6604,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 836,
@@ -6612,7 +6612,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 837,
@@ -6620,7 +6620,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 838,
@@ -6628,7 +6628,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 839,
@@ -6636,7 +6636,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec quis orci eget orci vehicula condimentum curabitur in libero ut",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 840,
@@ -6644,7 +6644,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 841,
@@ -6652,21 +6652,21 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 842,
     user_name: "wrowthornend",
     gender: "Female",
     tweet: "sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 843,
     user_name: "rmaccallamne",
     gender: "Female",
     tweet: "sed vel enim sit amet nunc viverra dapibus nulla suscipit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 844,
@@ -6674,7 +6674,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum sit amet cursus _id turpis integer aliquet massa _id lobortis convallis tortor risus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 845,
@@ -6682,7 +6682,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 846,
@@ -6690,7 +6690,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem _id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 847,
@@ -6698,7 +6698,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 848,
@@ -6706,7 +6706,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 849,
@@ -6714,7 +6714,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 850,
@@ -6722,7 +6722,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 851,
@@ -6730,7 +6730,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "cras pellentesque volutpat dui maecenas tristique est et tempus semper est",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 852,
@@ -6738,7 +6738,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 853,
@@ -6746,7 +6746,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 854,
@@ -6754,7 +6754,7 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "grav_ida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 855,
@@ -6762,7 +6762,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 856,
@@ -6770,7 +6770,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 857,
@@ -6778,7 +6778,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 858,
@@ -6786,14 +6786,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 859,
     user_name: "bcargenvennu",
     gender: "Male",
     tweet: "semper sapien a libero nam dui proin leo odio porttitor _id",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 860,
@@ -6801,7 +6801,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 861,
@@ -6809,7 +6809,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 862,
@@ -6817,7 +6817,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 863,
@@ -6825,14 +6825,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 864,
     user_name: "ksichardtnz",
     gender: "Male",
     tweet: "ac consequat metus sapien ut nunc vestibulum ante ipsum primis in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 865,
@@ -6840,7 +6840,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "neque libero convallis eget eleifend luctus ultricies eu nibh quisque _id justo",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 866,
@@ -6848,7 +6848,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 867,
@@ -6856,7 +6856,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 868,
@@ -6864,7 +6864,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 869,
@@ -6872,7 +6872,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 870,
@@ -6880,7 +6880,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 871,
@@ -6888,7 +6888,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "enim blandit mi in porttitor pede justo eu massa donec dapibus duis at",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 872,
@@ -6896,7 +6896,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 873,
@@ -6904,7 +6904,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 874,
@@ -6912,14 +6912,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 875,
     user_name: "hmatousoa",
     gender: "Female",
     tweet: "pede malesuada in imperdiet et commodo vulputate justo in blandit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 876,
@@ -6927,7 +6927,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacus morbi quis tortor _id nulla ultrices aliquet maecenas leo odio condimentum _id luctus nec molestie sed justo pellentesque viverra",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 877,
@@ -6935,7 +6935,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 878,
@@ -6943,7 +6943,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 879,
@@ -6951,7 +6951,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 880,
@@ -6959,7 +6959,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 881,
@@ -6967,7 +6967,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 882,
@@ -6975,7 +6975,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 883,
@@ -6983,7 +6983,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 884,
@@ -6991,7 +6991,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 885,
@@ -6999,7 +6999,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 886,
@@ -7007,7 +7007,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 887,
@@ -7015,7 +7015,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 888,
@@ -7023,7 +7023,7 @@ export const tweets: Tweet[] = [
     gender: "Genderflu_id",
     tweet:
       "nibh quisque _id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 889,
@@ -7031,7 +7031,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 890,
@@ -7039,7 +7039,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 891,
@@ -7047,7 +7047,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 892,
@@ -7055,7 +7055,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 893,
@@ -7063,7 +7063,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 894,
@@ -7071,7 +7071,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 895,
@@ -7079,7 +7079,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 896,
@@ -7087,14 +7087,14 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 897,
     user_name: "lmcgregorow",
     gender: "Male",
     tweet: "quam a odio in hac habitasse platea dictumst maecenas ut",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 898,
@@ -7102,7 +7102,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 899,
@@ -7110,7 +7110,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 900,
@@ -7118,7 +7118,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 901,
@@ -7126,7 +7126,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 902,
@@ -7134,7 +7134,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 903,
@@ -7142,14 +7142,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 904,
     user_name: "bhemberp3",
     gender: "Male",
     tweet: "quam pharetra magna ac consequat metus sapien ut nunc vestibulum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 905,
@@ -7157,7 +7157,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "porttitor _id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 906,
@@ -7165,7 +7165,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 907,
@@ -7173,7 +7173,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "orci pede venenatis non sodales sed tinc_idunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 908,
@@ -7181,7 +7181,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tinc_idunt ante vel ipsum praesent",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 909,
@@ -7189,7 +7189,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 910,
@@ -7197,7 +7197,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 911,
@@ -7205,7 +7205,7 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 912,
@@ -7213,7 +7213,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 913,
@@ -7221,7 +7221,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 914,
@@ -7229,7 +7229,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 915,
@@ -7237,14 +7237,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 916,
     user_name: "fhanwellpf",
     gender: "Agender",
     tweet: "libero nam dui proin leo odio porttitor _id consequat in",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 917,
@@ -7252,7 +7252,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 918,
@@ -7260,7 +7260,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "maecenas tristique est et tempus semper est quam pharetra magna ac consequat",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 919,
@@ -7268,7 +7268,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 920,
@@ -7276,7 +7276,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat fermentum justo nec condimentum neque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 921,
@@ -7284,7 +7284,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "velit _id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 922,
@@ -7292,7 +7292,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "et magnis dis parturient montes nascetur r_idiculus mus etiam vel augue vestibulum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 923,
@@ -7300,14 +7300,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 924,
     user_name: "fmilleypn",
     gender: "Male",
     tweet: "quisque porta volutpat erat quisque erat eros viverra eget congue",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 925,
@@ -7315,7 +7315,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 926,
@@ -7323,7 +7323,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 927,
@@ -7331,7 +7331,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eget tempus vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 928,
@@ -7339,7 +7339,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 929,
@@ -7347,14 +7347,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tempus vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 930,
     user_name: "cevequept",
     gender: "Male",
     tweet: "mi nulla ac enim in tempor turpis nec euismod scelerisque",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 931,
@@ -7362,7 +7362,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 932,
@@ -7370,7 +7370,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 933,
@@ -7378,7 +7378,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 934,
@@ -7386,7 +7386,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 935,
@@ -7394,7 +7394,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "magnis dis parturient montes nascetur r_idiculus mus vivamus vestibulum sagittis sapien cum sociis natoque",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 936,
@@ -7402,7 +7402,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 937,
@@ -7410,7 +7410,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 938,
@@ -7418,7 +7418,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 939,
@@ -7426,7 +7426,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 940,
@@ -7434,7 +7434,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 941,
@@ -7442,7 +7442,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 942,
@@ -7450,7 +7450,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 943,
@@ -7458,7 +7458,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "_id turpis integer aliquet massa _id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 944,
@@ -7466,7 +7466,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 945,
@@ -7474,7 +7474,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 946,
@@ -7482,7 +7482,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "convallis morbi odio odio elementum eu interdum eu tinc_idunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 947,
@@ -7490,14 +7490,14 @@ export const tweets: Tweet[] = [
     gender: "Genderqueer",
     tweet:
       "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 948,
     user_name: "hmalamoreqb",
     gender: "Female",
     tweet: "bibendum morbi non quam nec dui luctus rutrum nulla tellus in",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 949,
@@ -7505,7 +7505,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "pede justo lacinia eget tinc_idunt eget tempus vel pede morbi porttitor lorem _id ligula suspendisse ornare consequat lectus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 950,
@@ -7513,7 +7513,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 951,
@@ -7521,7 +7521,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 952,
@@ -7529,7 +7529,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "sapien non mi integer ac neque duis bibendum morbi non quam nec dui",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 953,
@@ -7537,7 +7537,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 954,
@@ -7545,7 +7545,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 955,
@@ -7553,7 +7553,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 956,
@@ -7561,7 +7561,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 957,
@@ -7569,7 +7569,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 958,
@@ -7577,7 +7577,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dictumst maecenas ut massa quis augue luctus tinc_idunt nulla mollis molestie",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 959,
@@ -7585,14 +7585,14 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 960,
     user_name: "bthornborrowqn",
     gender: "Non-binary",
     tweet: "eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 961,
@@ -7600,7 +7600,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 962,
@@ -7608,7 +7608,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 963,
@@ -7616,7 +7616,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "rutrum at lorem integer tinc_idunt ante vel ipsum praesent blandit lacinia erat",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 964,
@@ -7624,7 +7624,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 965,
@@ -7632,21 +7632,21 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 966,
     user_name: "sfranceschelliqt",
     gender: "Female",
     tweet: "morbi non lectus aliquam sit amet diam in magna bibendum",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 967,
     user_name: "iyoselevitchqu",
     gender: "Female",
     tweet: "vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 968,
@@ -7654,7 +7654,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "venenatis turpis enim blandit mi in porttitor pede justo eu massa donec",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 969,
@@ -7662,7 +7662,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 970,
@@ -7670,7 +7670,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 971,
@@ -7678,7 +7678,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 972,
@@ -7686,7 +7686,7 @@ export const tweets: Tweet[] = [
     gender: "Bigender",
     tweet:
       "tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 973,
@@ -7694,7 +7694,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "congue etiam justo etiam pretium iaculis justo in hac habitasse platea",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 974,
@@ -7702,7 +7702,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 975,
@@ -7710,14 +7710,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 976,
     user_name: "mscriner3",
     gender: "Male",
     tweet: "pharetra magna ac consequat metus sapien ut nunc vestibulum ante",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 977,
@@ -7725,7 +7725,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 978,
@@ -7733,7 +7733,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 979,
@@ -7741,7 +7741,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 980,
@@ -7749,7 +7749,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "erat _id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tinc_idunt",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 981,
@@ -7757,7 +7757,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "habitasse platea dictumst morbi vestibulum velit _id pretium iaculis diam erat",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 982,
@@ -7765,7 +7765,7 @@ export const tweets: Tweet[] = [
     gender: "Polygender",
     tweet:
       "vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 983,
@@ -7773,7 +7773,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "rutrum neque aenean auctor grav_ida sem praesent _id massa _id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 984,
@@ -7781,7 +7781,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 985,
@@ -7789,7 +7789,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 986,
@@ -7797,7 +7797,7 @@ export const tweets: Tweet[] = [
     gender: "Non-binary",
     tweet:
       "dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 987,
@@ -7805,7 +7805,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 988,
@@ -7813,7 +7813,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 989,
@@ -7821,7 +7821,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 990,
@@ -7829,14 +7829,14 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 991,
     user_name: "alackmannri",
     gender: "Female",
     tweet: "in libero ut massa volutpat convallis morbi odio odio elementum eu",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 992,
@@ -7844,7 +7844,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 993,
@@ -7852,7 +7852,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim",
-    aggressiveness_level: 3,
+    spam_level: 3,
   },
   {
     _id: 994,
@@ -7860,7 +7860,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "_id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 995,
@@ -7868,7 +7868,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet",
-    aggressiveness_level: 4,
+    spam_level: 4,
   },
   {
     _id: 996,
@@ -7876,7 +7876,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "r_idiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
   {
     _id: 997,
@@ -7884,7 +7884,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "nulla neque libero convallis eget eleifend luctus ultricies eu nibh",
-    aggressiveness_level: 1,
+    spam_level: 1,
   },
   {
     _id: 998,
@@ -7892,7 +7892,7 @@ export const tweets: Tweet[] = [
     gender: "Female",
     tweet:
       "vestibulum rutrum rutrum neque aenean auctor grav_ida sem praesent _id massa _id",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 999,
@@ -7900,7 +7900,7 @@ export const tweets: Tweet[] = [
     gender: "Male",
     tweet:
       "odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac",
-    aggressiveness_level: 5,
+    spam_level: 5,
   },
   {
     _id: 1000,
@@ -7908,6 +7908,6 @@ export const tweets: Tweet[] = [
     gender: "Agender",
     tweet:
       "sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et",
-    aggressiveness_level: 2,
+    spam_level: 2,
   },
 ];
