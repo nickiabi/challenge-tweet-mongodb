@@ -7,21 +7,18 @@ class DBTwitter {
     return tweets;
   }
 
-  async getNumberOfTweetsByLevel(level: number): Promise<number> {
+  async getNumberOfTweetsByLevel(params: { level: number }): Promise<number> {
     throw new Error("Method not implemented.");
   }
 
-  async getNumberOfTweetsByLevelRange({
-    minLevel = 1,
-    maxLevel = 5,
-  }: {
+  async getNumberOfTweetsByLevelRange(params: {
     minLevel?: number;
     maxLevel?: number;
   }): Promise<number> {
     throw new Error("Method not implemented.");
   }
 
-  async getTweetById(id: number): Promise<Tweet | null> {
+  async getTweetById(params: { id: number }): Promise<Tweet | null> {
     throw new Error("Method not implemented.");
   }
   async getNumberOfFemaleUsers(): Promise<number> {
@@ -29,6 +26,24 @@ class DBTwitter {
   }
 
   async getNumberOfMaleUsers(): Promise<number> {
+    throw new Error("Method not implemented.");
+  }
+
+  async deleteTweet(params: { id: number }): Promise<void> {
+    throw new Error("Method not implemented.");
+  }
+
+  async addTweet(tweet: Tweet): Promise<void> {
+    throw new Error("Method not implemented.");
+  }
+
+  async updateTweet(params: {
+    _id: number;
+    user_name?: string;
+    gender?: string;
+    tweet?: string;
+    spam_level?: number;
+  }) {
     throw new Error("Method not implemented.");
   }
 }
