@@ -4,7 +4,7 @@ import { tweets } from "./tweets";
 
 export const createDB = async () => {
   try {
-    const uridb = process.env.URIDB || "mongodb://localhost:27017/test";
+    const uridb = process.env.URIDB || "mongodb://localhost:27017/jerenickimati";
     await connect(uridb);
     await TweetCollection.create(tweets);
   } catch (error) {
